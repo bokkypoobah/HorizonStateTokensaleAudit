@@ -4,6 +4,9 @@ Status: To commence
 
 ## Summary
 
+Commits [af8d3e0](https://github.com/HorizonState/token-sale/tree/af8d3e0cf856dffb20d393b2e074a268bc5c2955) and
+[cffc2e4](https://github.com/HorizonState/token-sale/commit/cffc2e4baa956597a13b3a4ee9753fb7373f3bab).
+
 <br />
 
 <hr />
@@ -17,6 +20,7 @@ Status: To commence
 ## Recommendations
 
 * **MEDIUM IMPORTANCE** `DecisionTokenSale.removeWhiteListedAddress(...)` should have the statement `whiteListedForPresale[buyer] = false;` instead of `whiteListedForPresale[buyer] = true;`
+  * [x] Fixed in [cffc2e4](https://github.com/HorizonState/token-sale/commit/cffc2e4baa956597a13b3a4ee9753fb7373f3bab)
 
 <br />
 
